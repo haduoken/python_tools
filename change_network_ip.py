@@ -1,8 +1,9 @@
 import os
+import sys
 
-target_ip = '172.20.34.4'
-target_gateway = '172.20.34.1'
-target_netmask = '255.255.255.0'
+target_ip = sys.argv[1]
+target_gateway = sys.argv[2]
+target_netmask = sys.argv[3]
 
 # 得到ifconfig的 网卡名与ip
 p = os.popen('ifconfig')
