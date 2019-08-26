@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# coding=utf-8
 import os
 import sys
 
@@ -54,6 +56,6 @@ write_lines.append('netmask {} \n'.format(target_netmask))
 # 将list转成str
 out_lines = ''.join(write_lines)
 # os.system('sudo a')
-cmd = " echo '{}' >> /etc/network/test".format(out_lines)
+cmd = " echo '{}' >> /etc/network/interfaces".format(out_lines)
 cmd = 'sudo sh -c "{}"'.format(cmd)
 os.system(cmd)
