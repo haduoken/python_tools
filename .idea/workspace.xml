@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0be72f81-1280-4b62-bb4e-9999e6e8e9c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Navigation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto_stop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/release_stargazer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_clock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_read_imange.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_robotmanager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_sed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_serial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_subprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_release.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_python.py" afterDir="false" />
-    </list>
+    <list default="true" id="0be72f81-1280-4b62-bb4e-9999e6e8e9c1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_url.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="29" column="85" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
+            <state relative-caret-position="416">
+              <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -41,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/lib/python3/dist-packages/requests/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+            <state relative-caret-position="390">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -193,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/my_first_simulation/controllers/ros_python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -383,12 +364,12 @@
       <workItem from="1573636035638" duration="5428000" />
       <workItem from="1574489297420" duration="621000" />
       <workItem from="1575689395844" duration="7269000" />
-      <workItem from="1575700012539" duration="7057000" />
+      <workItem from="1575700012539" duration="7792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125521000" />
+    <option name="totallyTimeSpent" value="126256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,7 +390,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3282365" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39959225" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39959225" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925585" />
@@ -417,7 +398,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002764" side_tool="true" weight="0.32948583" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4997236" weight="0.25586137" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4997236" visible="true" weight="0.25586137" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -757,20 +738,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_url.py">
+    <entry file="file:///usr/lib/python3/dist-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="29" column="85" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/requests/api.py">
+    <entry file="file://$PROJECT_DIR$/get_url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+        <state relative-caret-position="416">
+          <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
