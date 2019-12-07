@@ -2,20 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111101/src/kilox_navigation" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111245/src/kilox_navigation" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111245/src/kilox_pantilt" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111245/src/kilox_robot" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111605/src/kilox_navigation" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111605/src/kilox_pantilt" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111605/src/kilox_robot" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111623/src/kilox_navigation" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111623/src/kilox_pantilt" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111623/src/kilox_robot" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111738/src/kilox_navigation" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111738/src/kilox_pantilt" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/20190830111738/src/kilox_robot" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/kilox_navigation" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tmp_20190830130218/src/kilox_pantilt" vcs="Git" />
   </component>
 </project>
