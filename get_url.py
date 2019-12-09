@@ -101,7 +101,7 @@ def parse():
         if company == 'DHL国际快递':
             # times[index] = DHL(tracking_number)
             pass
-        else:
+        elif company == '':
             ok, time = get_tracking_num(tracking_number)
             if ok:
                 times[index] = time
