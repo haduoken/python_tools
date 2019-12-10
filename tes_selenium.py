@@ -32,6 +32,16 @@ input_bar = browser.find_element_by_name("postid")
 # input_bar = WebDriverWait(browser, 20).until(
 #     EC.presence_of_element_located((By.CLASS_NAME, "token-input"))
 # )
+def get_visible_element(xpath):
+    try:
+        closer_btn = WebDriverWait(browser, 1).until(
+            EC.visibility_of_element_located((By.XPATH, xpath))
+        )
+    except:
+        return None
+    
+    return closer_btn
+
 
 def get_tracking_num_SF_100(tracking_number, phone_number):
     if phone_number.find('*') != -1:
@@ -41,21 +51,25 @@ def get_tracking_num_SF_100(tracking_number, phone_number):
     if phone_number == '':
         return False, 0
     try:
+        check_btn = get_visible_element('/html/body/div[7]/div[2]/div/a')
+        if check_btn is not None:
+            check_btn.click()
+        
         input_bar.click()
         input_bar.clear()
         input_bar.send_keys(tracking_number)
-
+        
         ensure_btn = browser.find_element_by_id('query')
         ensure_btn.click()
-
+        
         # import time
         # time.sleep(3)
-
+        
         input = WebDriverWait(browser, 2).until(
             EC.visibility_of_element_located((By.XPATH, '//*[@id="checkCode"]/div[2]/div/div[2]/input[1]'))
             # EC.visibility_of_element_located
         )
-
+        
         # input = WebDriverWait(browser, 10).until(
         #     EC.presence_of_element_located((By.XPATH, '//*[@id="checkCode"]/div[2]/div/div[2]/input[1]'))
         # )
@@ -68,12 +82,12 @@ def get_tracking_num_SF_100(tracking_number, phone_number):
         ActionChains(browser).send_keys_to_element(input, phone_number[2]).perform()
         input = browser.find_element_by_xpath('//*[@id="checkCode"]/div[2]/div/div[2]/input[4]')
         ActionChains(browser).send_keys_to_element(input, phone_number[3]).perform()
-
+        
         ensure_btn = browser.find_element_by_xpath('//*[@id="checkCode"]/div[2]/div/div[3]')
         ensure_btn.click()
-
+        
         # time.sleep(3)
-
+        
         date = WebDriverWait(browser, 3).until(
             EC.visibility_of_element_located((By.XPATH, '//*[@id="queryResult"]/div[3]/div[2]/table/tbody/tr[1]/td[1]'))
         )
@@ -83,10 +97,10 @@ def get_tracking_num_SF_100(tracking_number, phone_number):
         print('无法获取')
         # print(browser.page_source)
         return False, 0
-
+    
     # verify_code.click()
     # verify_code.send_keys('1234')
-
+    
     # input_bar.clear()
 
 
@@ -94,10 +108,10 @@ def get_tracking_num_SF(tracking_number):
     input_bar.click()
     input_bar.clear()
     input_bar.send_keys(tracking_number)
-
+    
     ensure_btn = browser.find_element_by_id('queryBill')
     ensure_btn.click()
-
+    
     try:
         # import time
         # time.sleep(3)
@@ -106,24 +120,24 @@ def get_tracking_num_SF(tracking_number):
         # iframe = browser.find_element_by_xpath('//iframe')  # 找到“嵌套”的iframe
         browser.switch_to.frame('tcaptcha_popup')  # 切换到iframe
         ts = browser.find_element_by_class_name('tcaptcha_drag_button')
-
+        
         verify_code = WebDriverWait(browser, 10).until(
             EC.presence_of_element_located((By.CLASS_NAME, "tcaptcha_drag_button"))
         )
         # source_element = browser.find_element_by_id('tcaptcha_drag_thumb')
-
+        
         # 27.5 ~ 228.action = ActionChains(driver)            # 实例化一个action对象
         # action.click_and_hold(button).perform()  # perform()用来执行ActionChains中存储的行为
         # action.reset_actions()
         # action.move_by_offset(180, 0).perform()  # 移动滑块5
         ActionChains(browser).click_and_hold(verify_code).perform()
         ActionChains(browser).reset_actions().drag_and_drop_by_offset(verify_code, 200, 0).perform()  # 链式用法
-
+        
         result_info = WebDriverWait(browser, 5).until(
             EC.presence_of_element_located((By.CLASS_NAME, "result-info2"))
         )
         # table_tr_list = result_info.find_elements_(By.TAG_NAME, "tr")
-
+        
         table_tr_list = result_info.find_elements_by_class_name('row1')
         # result_info = browser.find_element_by_class_name('result-info')
         last_row = result_info.find_element_by_class_name('last')
@@ -143,15 +157,15 @@ def get_tracking_num(tracking_number):
     input_bar.click()
     input_bar.clear()
     input_bar.send_keys(tracking_number)
-
+    
     ensure_btn = browser.find_element_by_id('query')
     ensure_btn.click()
-
+    
     try:
         result_info = WebDriverWait(browser, 5).until(
             EC.presence_of_element_located((By.CLASS_NAME, "result-info"))
         )
-
+        
         # result_info = browser.find_element_by_class_name('result-info')
         last_row = result_info.find_element_by_class_name('last')
         row_1 = last_row.find_element_by_class_name('row1')
