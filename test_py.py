@@ -1,3 +1,3 @@
-a = '1213'
-b = list(a)
+a = '.com'
+b = a.find('7')
 print(b)

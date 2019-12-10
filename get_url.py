@@ -1,7 +1,8 @@
 import requests, json
 import pandas  as pd
 from tqdm import tqdm
-from tes_selenium import get_tracking_num
+import math
+from tes_selenium import get_tracking_num, get_tracking_num_SF_100
 
 
 def DHL(trackingNumber):
@@ -116,7 +117,54 @@ def parse():
             print('保存一次文件 当前已保存', index)
 
 
-parse()
+# 527233538612869650	顺丰标准到付	"235609499749	"	18503089505	9505
+
+def parse2():
+    df = pd.read_excel('out.xlsx')
+
+    times = df['签收时间']
+
+    valuse = df.ix[:, ['快递公司', '物流单号', '手机号后四位', '签收时间']].values
+
+    current_cnt = 0
+    for index, data in enumerate(tqdm(valuse)):
+        current_cnt += 1
+
+        company, tracking_number, phone_number, receive_time = data
+        tracking_number = str(tracking_number)
+        tracking_number = tracking_number.strip('\t')
+
+        if company != '顺丰标准到付' and company != '顺丰标准快递' and company != '顺丰国际':
+            continue
+        elif isinstance(receive_time, float):
+            if math.isnan(receive_time):
+                print('receive time is {}'.format(receive_time))
+                ok, time = get_tracking_num_SF_100(tracking_number, phone_number)
+                if ok:
+                    times[index] = time
+            # print('phone number is ', phone_number)
+
+            # times[index] = get_tracking_num(tracking_number)
+        # if company == 'FedEx':
+        #     times[index] = FedEx(tracking_number)
+
+        # 每5个保存一次文件
+        if current_cnt >= 10:
+            df.to_excel('out.xlsx', sheet_name='Sheet2', index=False, header=True)
+            current_cnt = 0
+            print('保存一次文件 当前已保存', index)
+    df.to_excel('out.xlsx', sheet_name='Sheet2', index=False, header=True)
+
+    # 销售单号
+    # 快递公司
+    # 物流单号
+    # 收货人手机
+    # 手机号后四位
+    # 签收时间
+    # 网址
+
+
+parse2()
 
 if __name__ == "__main__":
     # while True:
