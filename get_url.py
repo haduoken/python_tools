@@ -10,7 +10,7 @@ class ExcelProcess:
         self.ts = TestSelenium()
         pass
     
-    def process(self, in_out_file):
+    def process(self, in_out_file, target_type=''):
         df = pd.read_excel(in_out_file)
         
         times = df['签收时间']
@@ -24,14 +24,19 @@ class ExcelProcess:
             tracking_number = tracking_number.strip('\t')
             phone_number = str(phone_number)
             
+            if target_type != '':
+                if company != target_type:
+                    continue
+            
             ok = False
+            print('[ExcelProcess]  尝试获取 {}'.format(company))
             if isinstance(receive_time, float):
                 if math.isnan(receive_time):
                     time = ''
-                    if company != '顺丰标准到付' and company != '顺丰标准快递' and company != '顺丰国际':
+                    if company == '顺丰标准到付' or company == '顺丰标准快递' or company == '顺丰国际':
                         ok, time = self.ts.get_tracking_num_SF_100(tracking_number, phone_number)
                     if company == 'FedEx':
-                        ok, time = self.ts.get_tracking_num_DHL(tracking_number)
+                        ok, time = self.ts.get_tracking_num_FedEx(tracking_number)
                     if company == 'DHL国际快递':
                         ok, time = self.ts.get_tracking_num_DHL(tracking_number)
                     
@@ -47,5 +52,5 @@ class ExcelProcess:
 
 if __name__ == "__main__":
     ep = ExcelProcess()
-    ep.process('result.xlsx')
+    ep.process('result.xlsx', target_type='FedEx')
     pass

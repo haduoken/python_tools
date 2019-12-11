@@ -22,7 +22,7 @@ class TestSelenium:
     
     def get_visible_element(self, xpath):
         try:
-            closer_btn = WebDriverWait(self.browser, 1).until(
+            closer_btn = WebDriverWait(self.browser, 5).until(
                 EC.visibility_of_element_located((By.XPATH, xpath))
             )
         except:
@@ -32,7 +32,7 @@ class TestSelenium:
     
     def get_presence_element(self, xpath):
         try:
-            closer_btn = WebDriverWait(self.browser, 10).until(
+            closer_btn = WebDriverWait(self.browser, 5).until(
                 EC.presence_of_element_located((By.XPATH, xpath))
             )
         except:
@@ -57,8 +57,8 @@ class TestSelenium:
             arrive_time = r['shipments'][0]['status']['timestamp']
             print('DHL {} 时间 {}'.format(tracking_number, arrive_time))
         except KeyError:
-            return 0
-        return arrive_time
+            return False, 0
+        return True, arrive_time
     
     def get_tracking_num_FedEx(self, tracking_number):
         try:
@@ -73,10 +73,17 @@ class TestSelenium:
             ensure_btn = self.browser.find_element_by_id('query')
             ensure_btn.click()
             
-            date = self.get_presence_element('/html/body/div[3]/div[3]/div[1]/div[6]/table/tbody/tr[1]/td[1]')
-            time = date.text
-            return True, time
+            date = self.get_visible_element('/html/body/div[3]/div[3]/div[1]/div[6]/table/tbody/tr[1]/td[1]')
+            # import time
+            # time.sleep(1)
+            if date is not None:
+                time = date.text
+                return True, time
+            else:
+                print('获取失败')
+                return False, 0
         except:
+            print('获取失败')
             return False, 0
     
     def get_tracking_num_SF_100(self, tracking_number, phone_number):
@@ -87,9 +94,9 @@ class TestSelenium:
         if phone_number == '':
             return False, 0
         try:
-            if self.browser_current != 'http://www.kuaidiwo.cn/shunfeng.html':
-                self.browser_current = 'http://www.kuaidiwo.cn/shunfeng.html'
-                self.browser.get('http://www.kuaidiwo.cn/shunfeng.html')
+            if self.browser_current != 'https://www.kuaidi100.com':
+                self.browser_current = 'https://www.kuaidi100.com'
+                self.browser.get('https://www.kuaidi100.com')
             
             check_btn = self.get_visible_element('/html/body/div[7]/div[2]/div/a')
             if check_btn is not None:
