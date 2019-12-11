@@ -83,7 +83,7 @@ def Express100(trackingNumber='129335520272'):
 
 # 527233538612869650	顺丰标准到付	"235609499749	"	18503089505	9505
 def parseDHL():
-    df = pd.read_excel('out.xlsx')
+    df = pd.read_excel('result.xlsx')
 
     times = df['签收时间']
 
@@ -111,7 +111,7 @@ def parseDHL():
         #     times[index] = FedEx(tracking_number)
 
         # 每5个保存一次文件
-    df.to_excel('out1.xlsx', sheet_name='Sheet2', index=False, header=True)
+    df.to_excel('result.xlsx', index=False, header=True)
 
 
 def parse2():
