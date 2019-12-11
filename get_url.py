@@ -12,13 +12,13 @@ def DHL(trackingNumber):
               }
     headers = {
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
-        
+
     }
     url = 'https://www.logistics.dhl/utapi'
-    
+
     try:
         r = requests.get(url, params=params, headers=headers).json()
-        
+
         arrive_time = r['shipments'][0]['status']['timestamp']
         print('DHL {} 时间 {}'.format(trackingNumber, arrive_time))
     except KeyError:
@@ -29,7 +29,7 @@ def DHL(trackingNumber):
 def FedEx(trackingNumber='129335520272'):
     headers = {
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
-        
+
     }
     url = 'https://www.fedex.com/trackingCal/track'
     data = json.loads(
@@ -70,7 +70,7 @@ def Express100(trackingNumber='129335520272'):
     url = 'https://m.kuaidi100.com/query'
     try:
         r = requests.get(url, params=params, headers=headers).json()
-        
+
         a = r
         arrive_time = r['shipments'][0]['status']['timestamp']
         print('DHL {} 时间 {}'.format(trackingNumber, arrive_time))
@@ -81,80 +81,77 @@ def Express100(trackingNumber='129335520272'):
 
 # Express100()
 
+# 527233538612869650	顺丰标准到付	"235609499749	"	18503089505	9505
+def parseDHL():
+    df = pd.read_excel('out.xlsx')
 
-def parse():
-    df = pd.read_excel('2.xlsx', sheet_name='Sheet1')
-    # for line in df.iloc[1:10, [1, 10]]:
-    #     a = line
-    companys = df['物流公司']
-    tracking_numbers = df['物流单号']
     times = df['签收时间']
-    
-    valuse = df.ix[:, ['物流公司', '物流单号', '签收时间']].values
-    
+
+    valuse = df.ix[:, ['快递公司', '物流单号', '手机号后四位', '签收时间']].values
+
     current_cnt = 0
     for index, data in enumerate(tqdm(valuse)):
         current_cnt += 1
-        
-        company, tracking_number, time = data
-        tracking_number = str(tracking_number)
-        tracking_number = tracking_number.strip('\t')
-        if company == 'DHL国际快递':
-            # times[index] = DHL(tracking_number)
-            pass
-        elif company == '':
-            ok, time = get_tracking_num(tracking_number)
-            if ok:
-                times[index] = time
-            # times[index] = get_tracking_num(tracking_number)
-        # if company == 'FedEx':
-        #     times[index] = FedEx(tracking_number)
-        
-        # 每5个保存一次文件
-        if current_cnt >= 5:
-            df.to_excel('2.xlsx', sheet_name='Sheet2', index=False, header=True)
-            current_cnt = 0
-            print('保存一次文件 当前已保存', index)
 
-
-# 527233538612869650	顺丰标准到付	"235609499749	"	18503089505	9505
-
-def parse2():
-    df = pd.read_excel('out.xlsx')
-    
-    times = df['签收时间']
-    
-    valuse = df.ix[:, ['快递公司', '物流单号', '手机号后四位', '签收时间']].values
-    
-    current_cnt = 0
-    for index, data in enumerate(tqdm(valuse[3615:])):
-        current_cnt += 1
-        
         company, tracking_number, phone_number, receive_time = data
         tracking_number = str(tracking_number)
         tracking_number = tracking_number.strip('\t')
-        
+
+        if company != 'DHL国际快递':
+            continue
+
+        elif isinstance(receive_time, float):
+            if math.isnan(receive_time):
+                time = DHL(tracking_number)
+                times[index] = time
+            # print('phone number is ', phone_number)
+
+            # times[index] = get_tracking_num(tracking_number)
+        # if company == 'FedEx':
+        #     times[index] = FedEx(tracking_number)
+
+        # 每5个保存一次文件
+    df.to_excel('out1.xlsx', sheet_name='Sheet2', index=False, header=True)
+
+
+def parse2():
+    df = pd.read_excel('out1.xlsx')
+
+    times = df['签收时间']
+
+    valuse = df.ix[:, ['快递公司', '物流单号', '手机号后四位', '签收时间']].values
+
+    current_cnt = 0
+    for index, data in enumerate(tqdm(valuse)):
+        current_cnt += 1
+        if index < 4362:
+            continue
+
+        company, tracking_number, phone_number, receive_time = data
+        tracking_number = str(tracking_number)
+        tracking_number = tracking_number.strip('\t')
+
         if company != '顺丰标准到付' and company != '顺丰标准快递' and company != '顺丰国际':
             continue
-        
+
         elif isinstance(receive_time, float):
             if math.isnan(receive_time):
                 ok, time = get_tracking_num_SF_100(tracking_number, str(phone_number))
                 if ok:
                     times[index] = time
             # print('phone number is ', phone_number)
-            
+
             # times[index] = get_tracking_num(tracking_number)
         # if company == 'FedEx':
         #     times[index] = FedEx(tracking_number)
-        
+
         # 每5个保存一次文件
         if current_cnt >= 10:
-            df.to_excel('out1.xlsx', sheet_name='Sheet2', index=False, header=True)
+            df.to_excel('out2.xlsx', sheet_name='Sheet2', index=False, header=True)
             current_cnt = 0
             print('保存一次文件 当前已保存', index)
-    df.to_excel('out1.xlsx', sheet_name='Sheet2', index=False, header=True)
-    
+    df.to_excel('out2.xlsx', sheet_name='Sheet2', index=False, header=True)
+
     # 销售单号
     # 快递公司
     # 物流单号
