@@ -8,6 +8,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException,
     WebDriverException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
+from decorator import try_except
 
 chrome_opt = Options()  # 创建参数设置对象.
 chrome_opt.add_argument('--headless')  # 无界面化.
@@ -40,6 +41,7 @@ class TestSelenium:
         
         return closer_btn
     
+    @try_except
     def get_tracking_num_DHL(self, tracking_number):
         params = {'trackingNumber': str(tracking_number),
                   'language': 'zh',
@@ -52,7 +54,8 @@ class TestSelenium:
         url = 'https://www.logistics.dhl/utapi'
         
         try:
-            r = requests.get(url, params=params, headers=headers).json()
+            # 增加超时, 防止某个请求卡住
+            r = requests.get(url, params=params, headers=headers, timeout=30).json()
             
             arrive_time = r['shipments'][0]['status']['timestamp']
             print('DHL {} 时间 {}'.format(tracking_number, arrive_time))
@@ -84,6 +87,51 @@ class TestSelenium:
                 return False, 0
         except:
             print('获取失败')
+            return False, 0
+    
+    # 普通的通过快递100查询
+    def get_tracking_num_100(self, tracking_number):
+        try:
+            if self.browser_current != 'https://www.kuaidi100.com':
+                self.browser_current = 'https://www.kuaidi100.com'
+                self.browser.get('https://www.kuaidi100.com')
+            
+            # check_btn = self.get_visible_element('/html/body/div[7]/div[2]/div/a')
+            # if check_btn is not None:
+            #     check_btn.click()
+            
+            input_bar = self.browser.find_element_by_name("postid")
+            
+            input_bar.click()
+            input_bar.clear()
+            input_bar.send_keys(tracking_number)
+            
+            ensure_btn = self.browser.find_element_by_id('query')
+            ensure_btn.click()
+            
+            # input = WebDriverWait(self.browser, 2).until(
+            #     EC.visibility_of_element_located((By.XPATH, '//*[@id="checkCode"]/div[2]/div/div[2]/input[1]'))
+            # )
+            #
+            # ActionChains(self.browser).send_keys_to_element(input, phone_number[0]).perform()
+            # input = self.browser.find_element_by_xpath('//*[@id="checkCode"]/div[2]/div/div[2]/input[2]')
+            # ActionChains(self.browser).send_keys_to_element(input, phone_number[1]).perform()
+            # input = self.browser.find_element_by_xpath('//*[@id="checkCode"]/div[2]/div/div[2]/input[3]')
+            # ActionChains(self.browser).send_keys_to_element(input, phone_number[2]).perform()
+            # input = self.browser.find_element_by_xpath('//*[@id="checkCode"]/div[2]/div/div[2]/input[4]')
+            # ActionChains(self.browser).send_keys_to_element(input, phone_number[3]).perform()
+            #
+            # ensure_btn = self.browser.find_element_by_xpath('//*[@id="checkCode"]/div[2]/div/div[3]')
+            # ensure_btn.click()
+            
+            date = WebDriverWait(self.browser, 3).until(
+                EC.visibility_of_element_located(
+                    (By.XPATH, '//*[@id="queryResult"]/div[3]/div[2]/table/tbody/tr[1]/td[1]'))
+            )
+            print(date.text)
+            return True, date.text
+        except (TimeoutException, NoSuchElementException, ElementNotVisibleException, WebDriverException, TypeError):
+            print('无法获取')
             return False, 0
     
     def get_tracking_num_SF_100(self, tracking_number, phone_number):

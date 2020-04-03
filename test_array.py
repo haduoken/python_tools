@@ -15,4 +15,6 @@ p3 = np.array([3, 3])
 # print(d)
 # print(3 / math.sqrt(5))
 
-print(distance_numpy(p1,p2,p3))
+# print(distance_numpy(p1,p2,p3))
+
+

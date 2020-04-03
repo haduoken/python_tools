@@ -2,10 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be72f81-1280-4b62-bb4e-9999e6e8e9c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/VO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calibrate_intris.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capture_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/format_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_t.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kalman_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qr_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_xml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solve_tsp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_hk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_matplotlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_opencv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_send.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_pyqt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/快递单号_1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_tools.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_stop.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_stop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal_dis.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_dis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_url.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/result.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tes_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/tes_selenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_read_imange.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_read_imange.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,94 +44,72 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_url.py">
+        <entry file="file://$PROJECT_DIR$/capture_image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="408">
+              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/try_pyqt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/auto_stop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/change_encoding.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tes_selenium.py">
+        <entry file="file://$PROJECT_DIR$/format_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+            <state relative-caret-position="119">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <folding>
+                <element signature="e#19#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote/errorhandler.py">
+        <entry file="file:///usr/local/lib/python3.5/dist-packages/PySide2/QtGui.pyi">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3689">
-              <caret line="217" column="26" selection-start-line="217" selection-start-column="26" selection-end-line="217" selection-end-column="26" />
+            <state relative-caret-position="128010">
+              <caret line="7533" column="19" selection-start-line="7533" selection-start-column="19" selection-end-line="7533" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/common/action_chains.py">
+        <entry file="file:///usr/local/lib/python3.5/dist-packages/PySide2/QtWidgets.pyi">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5457">
-              <caret line="326" column="8" selection-start-line="326" selection-start-column="8" selection-end-line="326" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote/webdriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6137">
-              <caret line="377" column="10" selection-start-line="377" selection-start-column="10" selection-end-line="377" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_sed.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.5/dist-packages/serial/serialutil.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2703">
-              <caret line="160" column="6" selection-start-line="160" selection-start-column="6" selection-end-line="160" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/monitor.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+            <state relative-caret-position="79815">
+              <caret line="4698" column="8" selection-start-line="4698" selection-start-column="8" selection-end-line="4698" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -117,6 +123,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>inf</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -127,13 +138,11 @@
         <option value="$PROJECT_DIR$/change_network_ip.py" />
         <option value="$PROJECT_DIR$/test_python.py" />
         <option value="$PROJECT_DIR$/run.sh" />
-        <option value="$PROJECT_DIR$/auto_stop.py" />
         <option value="$PROJECT_DIR$/auto_run.py" />
         <option value="$PROJECT_DIR$/robotmanager.py" />
         <option value="$PROJECT_DIR$/auto_release.py" />
         <option value="$PROJECT_DIR$/ts" />
         <option value="$PROJECT_DIR$/stargazer.py" />
-        <option value="$PROJECT_DIR$/test_array.py" />
         <option value="$PROJECT_DIR$/Navigation.py" />
         <option value="$PROJECT_DIR$/test_subprocess.py" />
         <option value="$PROJECT_DIR$/test_robotmanager.py" />
@@ -141,21 +150,42 @@
         <option value="$PROJECT_DIR$/change_encoding.py" />
         <option value="$PROJECT_DIR$/monitor.sh" />
         <option value="$PROJECT_DIR$/monitor.py" />
-        <option value="$PROJECT_DIR$/test_read_imange.py" />
         <option value="$PROJECT_DIR$/test_serial.py" />
         <option value="$PROJECT_DIR$/test_sed.py" />
         <option value="$PROJECT_DIR$/selenium.py" />
         <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/study_selenium.py" />
-        <option value="$PROJECT_DIR$/test_py.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/get_url.py" />
+        <option value="$PROJECT_DIR$/test_matplotlib.py" />
+        <option value="$PROJECT_DIR$/test_read_imange.py" />
+        <option value="$PROJECT_DIR$/test_opencv.py" />
+        <option value="$PROJECT_DIR$/decorator.py" />
         <option value="$PROJECT_DIR$/tes_selenium.py" />
+        <option value="$PROJECT_DIR$/get_url.py" />
+        <option value="$PROJECT_DIR$/camera_login.py" />
+        <option value="$PROJECT_DIR$/test_send.py" />
+        <option value="$PROJECT_DIR$/test_py.py" />
+        <option value="$PROJECT_DIR$/test_list.py" />
+        <option value="$PROJECT_DIR$/solve_tsp.py" />
+        <option value="$PROJECT_DIR$/test.xml" />
+        <option value="$PROJECT_DIR$/read_xml.py" />
+        <option value="$PROJECT_DIR$/test_array.py" />
+        <option value="$PROJECT_DIR$/test_hk.py" />
+        <option value="$PROJECT_DIR$/tmp.py" />
+        <option value="$PROJECT_DIR$/kalman_filter.py" />
+        <option value="$PROJECT_DIR$/iteration_t.py" />
+        <option value="$PROJECT_DIR$/VO.py" />
+        <option value="$PROJECT_DIR$/cal_dis.py" />
+        <option value="$PROJECT_DIR$/calibrate_intris.py" />
+        <option value="$PROJECT_DIR$/capture_image.py" />
+        <option value="$PROJECT_DIR$/try_pyqt.py" />
+        <option value="$PROJECT_DIR$/auto_stop.py" />
+        <option value="$PROJECT_DIR$/format_code.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
+    <option name="x" value="1919" />
     <option name="y" value="-4" />
     <option name="width" value="1922" />
     <option name="height" value="1085" />
@@ -194,7 +224,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -213,30 +244,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_url">
-    <configuration name="errorhandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="/usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="/usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote/errorhandler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get_url" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.format_code">
+    <configuration name="auto_stop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,7 +258,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_url.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_stop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,7 +267,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="selenium" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="calibrate_intris" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,7 +280,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tes_selenium.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calibrate_intris.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -280,7 +289,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="study_selenium" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="capture_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,7 +302,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_selenium.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/capture_image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,7 +311,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_py" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="format_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,7 +324,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_py.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/format_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="try_pyqt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try_pyqt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,19 +356,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.get_url" />
-      <item itemvalue="Python.selenium" />
-      <item itemvalue="Python.study_selenium" />
-      <item itemvalue="Python.errorhandler" />
-      <item itemvalue="Python.test_py" />
+      <item itemvalue="Python.calibrate_intris" />
+      <item itemvalue="Python.capture_image" />
+      <item itemvalue="Python.format_code" />
+      <item itemvalue="Python.try_pyqt" />
+      <item itemvalue="Python.auto_stop" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.get_url" />
-        <item itemvalue="Python.selenium" />
-        <item itemvalue="Python.test_py" />
-        <item itemvalue="Python.errorhandler" />
-        <item itemvalue="Python.study_selenium" />
+        <item itemvalue="Python.format_code" />
+        <item itemvalue="Python.auto_stop" />
+        <item itemvalue="Python.try_pyqt" />
+        <item itemvalue="Python.capture_image" />
+        <item itemvalue="Python.calibrate_intris" />
       </list>
     </recent_temporary>
   </component>
@@ -376,12 +407,47 @@
       <workItem from="1574489297420" duration="621000" />
       <workItem from="1575689395844" duration="7269000" />
       <workItem from="1575700012539" duration="7792000" />
-      <workItem from="1576065725795" duration="276000" />
+      <workItem from="1576065725795" duration="3530000" />
+      <workItem from="1576558945443" duration="10000" />
+      <workItem from="1576747730035" duration="5446000" />
+      <workItem from="1577418013704" duration="5533000" />
+      <workItem from="1577671305022" duration="268000" />
+      <workItem from="1577695923348" duration="2690000" />
+      <workItem from="1579052585887" duration="22779000" />
+      <workItem from="1579601170967" duration="637000" />
+      <workItem from="1581328107311" duration="306000" />
+      <workItem from="1581329193764" duration="12725000" />
+      <workItem from="1581487772636" duration="13994000" />
+      <workItem from="1582170528678" duration="5555000" />
+      <workItem from="1582280557436" duration="27000" />
+      <workItem from="1582512308065" duration="4976000" />
+      <workItem from="1582528358583" duration="6278000" />
+      <workItem from="1582535798666" duration="19838000" />
+      <workItem from="1582624512796" duration="13000" />
+      <workItem from="1582624752182" duration="917000" />
+      <workItem from="1582796176255" duration="9000" />
+      <workItem from="1582853259418" duration="1919000" />
+      <workItem from="1582861856931" duration="660000" />
+      <workItem from="1583314404410" duration="7769000" />
+      <workItem from="1583401404687" duration="2937000" />
+      <workItem from="1584066256933" duration="4495000" />
+      <workItem from="1584516609369" duration="9105000" />
+      <workItem from="1584669357855" duration="2475000" />
+      <workItem from="1584688400784" duration="718000" />
+      <workItem from="1584692029974" duration="1641000" />
+      <workItem from="1584703135173" duration="4874000" />
+      <workItem from="1585048367671" duration="5265000" />
+      <workItem from="1585117496818" duration="464000" />
+      <workItem from="1585125187458" duration="5280000" />
+      <workItem from="1585184823521" duration="3236000" />
+      <workItem from="1585271441662" duration="16000" />
+      <workItem from="1585728856234" duration="281000" />
+      <workItem from="1585879230852" duration="899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146647000" />
+    <option name="totallyTimeSpent" value="303936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,16 +459,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
+    <frame x="1919" y="-4" width="1922" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33724654" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2171825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32517838" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39653414" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32517838" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28236493" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
@@ -410,12 +476,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3291536" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002764" side_tool="true" weight="0.32948583" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4997236" weight="0.25287357" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4997236" weight="0.25280327" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32925585" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25262576" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32977587" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.27908218" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -454,274 +521,110 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/get_respond_number.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/monitor.py</url>
           <line>3</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test_read_imange.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="3" />
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tes_selenium.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="r.history" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_tools$monitor.coverage" NAME="monitor Coverage Results" MODIFIED="1573448565586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$test_matplotlib.coverage" NAME="test_matplotlib Coverage Results" MODIFIED="1576747984665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_tools$test_subprocess.coverage" NAME="test_subprocess Coverage Results" MODIFIED="1568116378530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_tools$get_url.coverage" NAME="get_url Coverage Results" MODIFIED="1576066205471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_tools$test_robotmanager.coverage" NAME="test_robotmanager Coverage Results" MODIFIED="1568269179669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_tools$selenium.coverage" NAME="selenium Coverage Results" MODIFIED="1575975845391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$get_url.coverage" NAME="get_url Coverage Results" MODIFIED="1579053598592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$test_send.coverage" NAME="test_send Coverage Results" MODIFIED="1581661432329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$cal_dis.coverage" NAME="cal_dis Coverage Results" MODIFIED="1584673775057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_tools$test_python.coverage" NAME="test_python Coverage Results" MODIFIED="1567163326209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_tools$test_read_imange.coverage" NAME="test_read_imange Coverage Results" MODIFIED="1573549785845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_tools$test_sed.coverage" NAME="test_sed Coverage Results" MODIFIED="1567496203956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$test_read_imange.coverage" NAME="test_read_imange Coverage Results" MODIFIED="1577441867349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$calibrate_intris.coverage" NAME="calibrate_intris Coverage Results" MODIFIED="1584695342213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1582861880789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$auto_stop.coverage" NAME="auto_stop Coverage Results" MODIFIED="1585207362174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$read_xml.coverage" NAME="read_xml Coverage Results" MODIFIED="1582591863720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_tools$test_serial.coverage" NAME="test_serial Coverage Results" MODIFIED="1573644509226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_tools$auto_run.coverage" NAME="auto_run Coverage Results" MODIFIED="1567166087126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$capture_image.coverage" NAME="capture_image Coverage Results" MODIFIED="1585098297484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_tools$errorhandler.coverage" NAME="errorhandler Coverage Results" MODIFIED="1575890691426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote" />
     <SUITE FILE_PATH="coverage/python_tools$auto_release.coverage" NAME="auto_release Coverage Results" MODIFIED="1567400959702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$try_pyqt.coverage" NAME="try_pyqt Coverage Results" MODIFIED="1585129703409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$format_code.coverage" NAME="format_code Coverage Results" MODIFIED="1585880166875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1577671576879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_tools$test_clock.coverage" NAME="test_clock Coverage Results" MODIFIED="1569637726921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_tools$study_selenium.coverage" NAME="study_selenium Coverage Results" MODIFIED="1575889651237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_tools$test_py.coverage" NAME="test_py Coverage Results" MODIFIED="1575891156528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$test_list.coverage" NAME="test_list Coverage Results" MODIFIED="1582170839871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$kalman_filter.coverage" NAME="kalman_filter Coverage Results" MODIFIED="1583401543728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$test_array.coverage" NAME="test_array Coverage Results" MODIFIED="1582599258131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$monitor.coverage" NAME="monitor Coverage Results" MODIFIED="1573448565586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$test_hk.coverage" NAME="test_hk Coverage Results" MODIFIED="1582613279755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$test_robotmanager.coverage" NAME="test_robotmanager Coverage Results" MODIFIED="1568269179669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$selenium.coverage" NAME="selenium Coverage Results" MODIFIED="1575975845391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$VO.coverage" NAME="VO Coverage Results" MODIFIED="1584524032770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$test_sed.coverage" NAME="test_sed Coverage Results" MODIFIED="1567496203956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$solve_tsp.coverage" NAME="solve_tsp Coverage Results" MODIFIED="1582181011561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$auto_run.coverage" NAME="auto_run Coverage Results" MODIFIED="1567166087126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$test_opencv.coverage" NAME="test_opencv Coverage Results" MODIFIED="1577696410709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$test_py.coverage" NAME="test_py Coverage Results" MODIFIED="1581667084652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_tools$stargazer.coverage" NAME="stargazer Coverage Results" MODIFIED="1567482247152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_tools$test_array.coverage" NAME="test_array Coverage Results" MODIFIED="1567686099764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$iteration_t.coverage" NAME="iteration_t Coverage Results" MODIFIED="1584068163266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/20190830111738/src/kilox_navigation/p2r3_robot_control_for_plc/src/robot_control_node.cpp" />
-    <entry file="file://$PROJECT_DIR$/20190830111738/src/kilox_navigation/p2r3_robot_control_for_plc/include/robot_control.h" />
-    <entry file="file://$PROJECT_DIR$/auto_run.py" />
-    <entry file="file://$PROJECT_DIR$/robotmanager_20190902_130930_kilox_pantilt.tar.log" />
-    <entry file="file://$PROJECT_DIR$/robotmanager_20190902_130930_kilox_pantilt.log" />
-    <entry file="file://$PROJECT_DIR$/robotmanager_20190902_133235_kilox_pantilt.log" />
-    <entry file="file:///usr/lib/python3.5/ntpath.py">
+    <entry file="file://$PROJECT_DIR$/test_hk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3825">
-          <caret line="229" column="4" selection-start-line="229" selection-start-column="4" selection-end-line="229" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto_stop.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20190903_110130_Stargazer_dev.log" />
-    <entry file="file://$PROJECT_DIR$/stargazer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+        <state relative-caret-position="1700">
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
           <folding>
-            <element signature="e#35#44#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.5/subprocess.py">
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1247971764/numpy/core/_multiarray_umath.py" />
+    <entry file="file://$PROJECT_DIR$/test.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14161">
-          <caret line="833" column="8" selection-start-line="833" selection-start-column="8" selection-end-line="833" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/ros/kinetic/lib/python2.7/dist-packages/tf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="e#1582#1697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/change_network_ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.5/shutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8381">
-          <caret line="499" column="31" selection-start-line="499" selection-start-column="31" selection-end-line="499" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.5/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4063">
-          <caret line="240" column="11" selection-start-line="240" selection-start-column="11" selection-end-line="240" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/change_encoding.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1247971764/time.py" />
-    <entry file="file://$PROJECT_DIR$/Navigation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/release_stargazer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#34#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_clock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="204">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_robotmanager.py">
+    <entry file="file://$PROJECT_DIR$/conimg1.jpg" />
+    <entry file="file://$PROJECT_DIR$/iteration_t.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#47#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="238">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_read_imange.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_serial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1247971764/builtins.py" />
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/serial/serialjava.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1247971764/cv2/cv2/__init__.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1247971764/posix.py" />
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85527">
-          <caret line="5080" column="29" selection-start-line="5080" selection-start-column="29" selection-end-line="5080" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35122">
-          <caret line="2084" selection-start-line="2084" selection-end-line="2084" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/requests/adapters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="430" column="45" selection-start-line="430" selection-start-column="45" selection-end-line="430" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/util/retry.pyi" />
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84558">
-          <caret line="4974" column="1411" selection-start-line="4974" selection-start-column="1411" selection-end-line="4974" selection-end-column="1411" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_selenium.py" />
-    <entry file="file://$PROJECT_DIR$/test_py.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1247971764/cv2/cv2/Feature2D.py" />
+    <entry file="file://$PROJECT_DIR$/cal_dis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -732,59 +635,269 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote/errorhandler.py">
+    <entry file="file:///usr/lib/python3.5/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3689">
-          <caret line="217" column="26" selection-start-line="217" selection-start-column="26" selection-end-line="217" selection-end-column="26" />
+        <state relative-caret-position="9928">
+          <caret line="584" column="4" selection-start-line="584" selection-start-column="4" selection-end-line="584" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/common/action_chains.py">
+    <entry file="file:///usr/lib/python3.5/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5457">
-          <caret line="326" column="8" selection-start-line="326" selection-start-column="8" selection-end-line="326" selection-end-column="8" />
+        <state relative-caret-position="3655">
+          <caret line="219" column="4" selection-start-line="219" selection-start-column="4" selection-end-line="219" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6137">
-          <caret line="377" column="10" selection-start-line="377" selection-start-column="10" selection-end-line="377" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1247971764/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/test.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1247971764/cv2/cv2/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/test_clock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calibrate_intris.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+          <folding>
+            <element signature="e#19#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_network_ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_respond_number.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding>
+            <element signature="e#19#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kalman_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/localization.log" />
+    <entry file="file://$PROJECT_DIR$/monitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Navigation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1666">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_xml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release_stargazer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solve_tsp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="48" column="78" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stargazer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_matplotlib.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_opencv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_py.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_python.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_read_imange.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_robotmanager.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test_sed.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_send.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="272">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/serial/serialutil.py">
+    <entry file="file://$PROJECT_DIR$/test_serial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
-          <caret line="160" column="6" selection-start-line="160" selection-start-column="6" selection-end-line="160" selection-end-column="6" />
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monitor.sh">
+    <entry file="file://$PROJECT_DIR$/tmp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tes_selenium.py">
+    <entry file="file://$PROJECT_DIR$/VO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+        <state relative-caret-position="697">
+          <caret line="44" column="49" lean-forward="true" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qr_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1247971764/cv2/cv2/VideoCapture.py" />
+    <entry file="file://$PROJECT_DIR$/image_1/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/capture_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try_pyqt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/PySide2/QtGui.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128010">
+          <caret line="7533" column="19" selection-start-line="7533" selection-start-column="19" selection-end-line="7533" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/PySide2/QtWidgets.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79815">
+          <caret line="4698" column="8" selection-start-line="4698" selection-start-column="8" selection-end-line="4698" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_stop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_encoding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#19#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,7 +1,7 @@
 import cv2
 
 # path
-path = '/home/kilox/test_raw.png'
+path = '/home/kilox/a_raw.png'
 
 # Using cv2.imread() method
 img = cv2.imread(path,3)

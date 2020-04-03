@@ -1,0 +1,23 @@
+<students>
+    <student no="2009081097">
+        <name nickname="apple">jack</name>
+        <gender>M</gender>
+        <age updated="yes">89</age>
+        <score subject="math">97</score>
+        <score subject="chinese">90</score>
+    </student>
+    <student no="2009081098">
+        <name nickname="apple">sunny</name>
+        <gender>W</gender>
+        <age updated="yes">90</age>
+        <score subject="math">87</score>
+        <score subject="chinese">96</score>
+    </student>
+    <student no="2009081099">
+        <name nickname="apple">Anna</name>
+        <gender>M</gender>
+        <age updated="yes">88</age>
+        <score subject="math">64</score>
+        <score subject="chinese">98</score>
+    </student>
+</students>
