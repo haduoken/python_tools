@@ -20,6 +20,8 @@ class TestSelenium:
     def __init__(self):
         self.browser = webdriver.Chrome()
         self.browser_current = None
+        
+        self.dhl_loss = 0
     
     def get_visible_element(self, xpath):
         try:
@@ -52,15 +54,20 @@ class TestSelenium:
             
         }
         url = 'https://www.logistics.dhl/utapi'
+        if self.dhl_loss >= 2:
+            print('DHL 连续两次失败, 本次不获取DHL')
+            return False, 0
         
         try:
             # 增加超时, 防止某个请求卡住
-            r = requests.get(url, params=params, headers=headers, timeout=30).json()
+            r = requests.get(url, params=params, headers=headers, timeout=10).json()
             
             arrive_time = r['shipments'][0]['status']['timestamp']
             print('DHL {} 时间 {}'.format(tracking_number, arrive_time))
-        except KeyError:
+        except:
+            self.dhl_loss += 1
             return False, 0
+        self.dhl_loss = 0
         return True, arrive_time
     
     def get_tracking_num_FedEx(self, tracking_number):

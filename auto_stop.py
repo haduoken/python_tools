@@ -1,5 +1,7 @@
-import cv2
+import matplotlib.pyplot as plt
+import numpy as np
+import random
 
-img = cv2.imread('2.png')
-img = cv2.resize(img,dsize=(400,255))
-cv2.imwrite('2_1.png',img)
+a, b = 1, 2
+a, b = b, a
+print(a, b)

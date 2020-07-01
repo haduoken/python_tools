@@ -15,6 +15,7 @@ class ExcelProcess:
         self.target_type = None
         self.df = None
         self.in_out_file = None
+        self.skip_type = []
         pass
     
     @try_except
@@ -28,6 +29,8 @@ class ExcelProcess:
         if self.target_type != '':
             if company != self.target_type:
                 return
+        if company in self.skip_type:
+            return
         
         ok = False
         print('[ExcelProcess]  尝试获取 {}'.format(company))
@@ -44,6 +47,7 @@ class ExcelProcess:
                     ok, time = self.ts.get_tracking_num_100(tracking_number)
                 
                 if ok:
+                    print('获取到时间', time)
                     self.times[index] = time
                     self.current_cnt += 1
         if self.current_cnt >= 10:
@@ -51,15 +55,17 @@ class ExcelProcess:
             self.current_cnt = 0
             print('************* 保存一次 *************')
     
-    def process(self, in_out_file, target_type=''):
+    def process(self, in_out_file, skip_type, target_type=''):
         self.df = pd.read_excel(in_out_file)
         self.target_type = target_type
+        self.skip_type = skip_type
         
         self.times = self.df['签收时间']
         self.in_out_file = in_out_file
         
         # valuse = df.ix[:, ['快递公司', '物流单号', '手机号后四位', '签收时间']].values
-        valuse = self.df.ix[:, ['物流公司', '物流单号', '收货人电话', '签收时间']].values
+        # valuse = self.df.ix[:, ['物流公司', '物流单号', '收货人电话', '签收时间']].values
+        valuse = self.df.ix[:, ['物流公司', '物流单号', '收件人电话', '签收时间']].values
         
         self.current_cnt = 0
         for index, data in enumerate(tqdm(valuse)):
@@ -70,5 +76,5 @@ class ExcelProcess:
 if __name__ == "__main__":
     ep = ExcelProcess()
     # ep.process('result.xlsx', target_type='FedEx')
-    ep.process('result.xlsx', target_type='亚马逊物流')
+    ep.process('线上签收时间.xlsx', ['DHL国际快递'])
     pass
